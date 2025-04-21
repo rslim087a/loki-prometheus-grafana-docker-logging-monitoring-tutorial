@@ -72,7 +72,7 @@ services:
 
   # for testing purposes only, disable in production
   log-generator:
-    image: mingrammer/flog
+    image: mingrammer/flog:0.4.3
     command:
       - --loop
       - --format=json
