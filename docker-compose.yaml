@@ -98,7 +98,7 @@ services:
       - loki
 
   minio:
-    image: minio/minio
+    image: minio/minio:RELEASE.2025-04-08T15-41-24Z
     entrypoint:
       - sh
       - -euc
