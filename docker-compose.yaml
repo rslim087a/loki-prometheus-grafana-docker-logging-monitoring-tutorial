@@ -87,7 +87,7 @@ services:
       - loki
 
   promtail:
-    image: grafana/promtail:latest
+    image: grafana/promtail:3.4.3
     volumes:
       - ./loki/:/var/log/
       - ./config:/etc/promtail/
